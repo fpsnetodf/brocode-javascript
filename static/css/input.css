@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+label{
+    @apply  font-bold text-xl h-6 w-6
+}
+input[type="checkbox"]:checked { @apply bg-green-500 border-transparent  }
+input[type="checkbox"]:not(:checked) { @apply bg-red-500 border-transparent }
+
+    
+        
+
